@@ -1,4 +1,4 @@
-# API-de-Autenticacao-e-Autorizacao-JWT-
+# API-de-Autenticacao-e-Autorizacao-JWT
 
 # 🔐 API JWT com Spring Boot
 
