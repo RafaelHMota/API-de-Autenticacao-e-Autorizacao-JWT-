@@ -63,18 +63,19 @@ jwt.secret=3xAmpl3S3gr3tK3yT0Us3F0rJwtT0k3n!
 🔐 Endpoints principais
 
 🔓 Acesso público
+```
 Método	Rota	Descrição
 POST	/auth/register	Cria um novo usuário
 POST	/auth/login	Retorna JWT
 POST	/auth/validate?token=...	Valida JWT manualmente
-
+```
 🔒 Endpoints protegidos (necessário JWT)
+```
 Método	Rota	Descrição
 GET	/protected	Retorna mensagem se token for válido
 GET	/auth/users	Lista todos os usuários
 DELETE	/auth/users/{username}	Remove um usuário
-
----
+```
 
 🧪 Testes
 Execute os testes com:
