@@ -98,23 +98,27 @@ http://localhost:8080/h2-console
 ```
 Use:
 
-JDBC URL: jdbc:h2:file:./src/main/resources/db/bancoDeDados
+● JDBC URL: jdbc:h2:file:./src/main/resources/db/bancoDeDados
 
-Username: sa
+● Username: sa
 
-Senha: (em branco)
+● Senha: (em branco)
 
 📈 Monitoramento (Actuator + Prometheus)
-Health check: http://localhost:8080/actuator/health
 
-Métricas Prometheus: http://localhost:8080/actuator/prometheus
+● Health check: http://localhost:8080/actuator/health
+
+● Métricas Prometheus: http://localhost:8080/actuator/prometheus
 
 🧙‍♂️ Usuários criados automaticamente
+
 Se o banco estiver vazio, os seguintes usuários são criados:
 
+```
 Usuário	Senha	Papel
 admin	123	ROLE_ADMIN
 user	123	ROLE_USER
+```
 
 📂 Estrutura do Projeto
 ```
